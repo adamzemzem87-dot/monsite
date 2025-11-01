@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+
+
+:root {
+  /* Primary Colors - Boulangerie Dorée Palette */
+  --color-primary: #D4A574; /* warm-golden-crust */
+  --color-primary-50: #FBF8F3; /* lightest-golden */
+  --color-primary-100: #F4E4BC; /* flour-dusting */
+  --color-primary-200: #EDD49A; /* light-golden */
+  --color-primary-300: #E5C478; /* medium-golden */
+  --color-primary-400: #DDB956; /* golden-highlight */
+  --color-primary-500: #D4A574; /* warm-golden-crust */
+  --color-primary-600: #B8925F; /* deeper-golden */
+  --color-primary-700: #9C7F4A; /* rich-golden */
+  --color-primary-800: #806C35; /* dark-golden */
+  --color-primary-900: #645920; /* darkest-golden */
+
+  /* Secondary Colors */
+  --color-secondary: #8B4513; /* rich-bread-interior */
+  --color-secondary-50: #F5F0E8; /* lightest-brown */
+  --color-secondary-100: #E8D5C0; /* light-brown */
+  --color-secondary-200: #DBBA98; /* medium-light-brown */
+  --color-secondary-300: #CE9F70; /* medium-brown */
+  --color-secondary-400: #C18448; /* darker-brown */
+  --color-secondary-500: #8B4513; /* rich-bread-interior */
+  --color-secondary-600: #7A3D11; /* deeper-brown */
+  --color-secondary-700: #69350F; /* dark-brown */
+  --color-secondary-800: #582D0D; /* darker-brown */
+  --color-secondary-900: #47250B; /* darkest-brown */
+
+  /* Accent Colors */
+  --color-accent: #F4E4BC; /* fresh-flour-dusting */
+  --color-accent-50: #FEFCF8; /* clean-bakery-counter */
+  --color-accent-100: #F9F6F0; /* subtle-parchment-depth */
+  --color-accent-200: #F4E4BC; /* fresh-flour-dusting */
+  --color-accent-300: #EFD29A; /* light-flour */
+  --color-accent-400: #EAC078; /* medium-flour */
+  --color-accent-500: #E5AE56; /* deeper-flour */
+  --color-accent-600: #D19C34; /* golden-flour */
+  --color-accent-700: #BD8A12; /* rich-flour */
+  --color-accent-800: #9B7210; /* dark-flour */
+  --color-accent-900: #795A0E; /* darkest-flour */
+
+  /* Background Colors */
+  --color-background: #FEFCF8; /* clean-bakery-counter */
+  --color-surface: #F9F6F0; /* subtle-parchment-depth */
+
+  /* Text Colors */
+  --color-text-primary: #2C1810; /* dark-chocolate-readability */
+  --color-text-secondary: #5D4037; /* cocoa-powder-hierarchy */
+
+  /* Status Colors */
+  --color-success: #7CB342; /* fresh-herb-confidence */
+  --color-success-50: #F1F8E9; /* lightest-green */
+  --color-success-100: #DCEDC8; /* light-green */
+  --color-success-200: #C5E1A5; /* medium-light-green */
+  --color-success-300: #AED581; /* medium-green */
+  --color-success-400: #9CCC65; /* darker-green */
+  --color-success-500: #7CB342; /* fresh-herb-confidence */
+  --color-success-600: #689F38; /* deeper-green */
+  --color-success-700: #558B2F; /* dark-green */
+  --color-success-800: #33691E; /* darker-green */
+  --color-success-900: #1B5E20; /* darkest-green */
+
+  --color-warning: #FF8F00; /* caramelized-urgency */
+  --color-warning-50: #FFF8E1; /* lightest-orange */
+  --color-warning-100: #FFECB3; /* light-orange */
+  --color-warning-200: #FFE082; /* medium-light-orange */
+  --color-warning-300: #FFD54F; /* medium-orange */
+  --color-warning-400: #FFCA28; /* darker-orange */
+  --color-warning-500: #FF8F00; /* caramelized-urgency */
+  --color-warning-600: #FF6F00; /* deeper-orange */
+  --color-warning-700: #E65100; /* dark-orange */
+  --color-warning-800: #BF360C; /* darker-orange */
+  --color-warning-900: #3E2723; /* darkest-orange */
+
+  --color-error: #D32F2F; /* cherry-concern */
+  --color-error-50: #FFEBEE; /* lightest-red */
+  --color-error-100: #FFCDD2; /* light-red */
+  --color-error-200: #EF9A9A; /* medium-light-red */
+  --color-error-300: #E57373; /* medium-red */
+  --color-error-400: #EF5350; /* darker-red */
+  --color-error-500: #D32F2F; /* cherry-concern */
+  --color-error-600: #C62828; /* deeper-red */
+  --color-error-700: #B71C1C; /* dark-red */
+  --color-error-800: #8D1E1E; /* darker-red */
+  --color-error-900: #6A1B1B; /* darkest-red */
+
+  /* Shadow Variables */
+  --shadow-warm: 0 4px 20px rgba(212, 165, 116, 0.15);
+  --shadow-subtle: 0 2px 8px rgba(212, 165, 116, 0.08);
+  --shadow-gentle: 0 1px 4px rgba(212, 165, 116, 0.05);
+}
+
+@layer base {
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  
+
+  .text-accent-script {
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .text-heading {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .text-cta {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+@layer utilities {
+  .shadow-warm {
+    box-shadow: var(--shadow-warm);
+  }
+
+  .shadow-subtle {
+    box-shadow: var(--shadow-subtle);
+  }
+
+  .shadow-gentle {
+    box-shadow: var(--shadow-gentle);
+  }
+
+  .transition-gentle {
+    transition: all 300ms ease-out;
+  }
+}

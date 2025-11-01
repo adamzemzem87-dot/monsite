@@ -1,0 +1,2647 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Produits - Maison Laetitier | Boulangerie Artisanale Parisienne</title>
+    <meta name="description" content="Découvrez notre gamme complète de pains artisanaux, viennoiseries, pâtisseries et gâteaux. Produits frais faits maison chaque jour avec des ingrédients de qualité.">
+    <link rel="stylesheet" href="../css/main.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Produits Artisanaux Maison Laetitier",
+        "description": "Gamme complète de pains, viennoiseries et pâtisseries artisanales",
+        "brand": {
+            "@type": "Organization",
+            "name": "Maison Laetitier"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "EUR",
+            "lowPrice": "1.20",
+            "highPrice": "45.00"
+        }
+    }
+    </script>
+  
+  <script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fmaisonlae3649back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.9"></script>
+  <script type="module" src="https://static.rocket.new/rocket-shot.js?v=0.0.1"></script>
+  </head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-accent-200">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <svg class="w-10 h-10 text-primary" viewBox="0 0 40 40" fill="currentColor">
+                        <path d="M20 2C15.5 2 12 5.5 12 10c0 2.5 1 4.8 2.6 6.5L20 38l5.4-21.5C27 14.8 28 12.5 28 10c0-4.5-3.5-8-8-8zm0 11c-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3-1.3 3-3 3z"/>
+                        <circle cx="20" cy="10" r="2" fill="white"/>
+                    </svg>
+                    <div>
+                        <h1 class="text-2xl font-dancing text-primary font-bold">Maison Laetitier</h1>
+                        <p class="text-xs text-text-secondary">Boulangerie Artisanale</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="page dacceuil.html" class="text-text-secondary hover:text-primary transition-colors">Accueil</a>
+                    <a href="products.html" class="text-primary font-medium border-b-2 border-primary">Nos Produits</a>
+                    <a href="contact_visit.html" class="btn-primary">Contact & Visite</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 text-text-primary">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-accent-200">
+                <div class="flex flex-col space-y-3 pt-4">
+                    <a href="page dacceuil.html" class="text-text-secondary">Accueil</a>
+                    <a href="products.html" class="text-primary font-medium">Nos Produits</a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb Navigation -->
+    <section class="bg-surface py-4">
+        <div class="container mx-auto px-4">
+            <nav class="flex items-center space-x-2 text-sm">
+                <a href="page dacceuil.html" class="text-text-secondary hover:text-primary transition-colors">Accueil</a>
+                <svg class="w-4 h-4 text-text-secondary" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span class="text-primary font-medium">Nos Produits</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="relative py-16 bg-gradient-to-br from-primary/10 via-surface to-accent/20">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-5xl md:text-7xl font-playfair font-bold text-text-primary mb-6">
+                    Nos <span class="text-primary">Produits</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-text-secondary mb-8">
+                    Découvrez notre gamme complète de créations artisanales, préparées chaque jour avec passion et savoir-faire traditionnel
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button id="filter-btn" class="btn-primary flex items-center space-x-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.207A1 1 0 013 6.5V4z"></path>
+                        </svg>
+                        <span>Filtrer les produits</span>
+                    </button>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Panel -->
+    <div id="filter-panel" class="hidden bg-surface border-b border-accent-200 py-6">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-6">
+                <!-- Category Filter -->
+                <div>
+                    <label class="block text-sm font-semibold text-text-primary mb-3">Catégorie</label>
+                    <select id="category-filter" class="input-field">
+                        <option value="">Toutes les catégories</option>
+                        <option value="pains">Pains</option>
+                        <option value="viennoiseries">Viennoiseries</option>
+                        <option value="patisseries">Pâtisseries</option>
+                        <option value="gateaux">Gâteaux & Entremets</option>
+                        <option value="snacking">Snacking & Salades</option>
+                        <option value="biscuits">Biscuits & Glaces</option>
+                    </select>
+                </div>
+
+                <!-- Price Range Filter -->
+                <div>
+                    <label class="block text-sm font-semibold text-text-primary mb-3">Prix</label>
+                    <select id="price-filter" class="input-field">
+                        <option value="">Tous les prix</option>
+                        <option value="0-5">0 € - 5 €</option>
+                        <option value="5-15">5 € - 15 €</option>
+                        <option value="15-30">15 € - 30 €</option>
+                        <option value="30+">30 € et plus</option>
+                    </select>
+                </div>
+
+                <!-- Dietary Restrictions -->
+                <div>
+                    <label class="block text-sm font-semibold text-text-primary mb-3">Régimes alimentaires</label>
+                    <select id="dietary-filter" class="input-field">
+                        <option value="">Tous les produits</option>
+                        <option value="sans-gluten">Sans gluten</option>
+                        <option value="vegan">Vegan</option>
+                        <option value="sans-lactose">Sans lactose</option>
+                        <option value="bio">Bio</option>
+                    </select>
+                </div>
+
+                <!-- Availability -->
+                <div>
+                    <label class="block text-sm font-semibold text-text-primary mb-3">Disponibilité</label>
+                    <select id="availability-filter" class="input-field">
+                        <option value="">Tous les produits</option>
+                        <option value="available">Disponible maintenant</option>
+                        <option value="limited">Stock limité</option>
+                        <option value="pre-order">Sur commande</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center mt-6">
+                <button id="reset-filters" class="text-text-secondary hover:text-primary transition-colors flex items-center space-x-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                    </svg>
+                    <span>Réinitialiser les filtres</span>
+                </button>
+                <div id="results-count" class="text-text-secondary">
+                    <span class="font-semibold text-primary">42</span> produits trouvés
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Categories -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <!-- Category Navigation -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <button class="category-tab active bg-primary text-white px-6 py-3 rounded-full font-montserrat font-medium transition-all hover:bg-primary-600" data-category="all">
+                    Tous les produits
+                </button>
+                <button class="category-tab bg-accent-200 text-text-primary px-6 py-3 rounded-full font-montserrat font-medium transition-all hover:bg-accent-300" data-category="pains">
+                    Pains
+                </button>
+                <button class="category-tab bg-accent-200 text-text-primary px-6 py-3 rounded-full font-montserrat font-medium transition-all hover:bg-accent-300" data-category="viennoiseries">
+                    Viennoiseries
+                </button>
+                <button class="category-tab bg-accent-200 text-text-primary px-6 py-3 rounded-full font-montserrat font-medium transition-all hover:bg-accent-300" data-category="patisseries">
+                    Pâtisseries
+                </button>
+                <button class="category-tab bg-accent-200 text-text-primary px-6 py-3 rounded-full font-montserrat font-medium transition-all hover:bg-accent-300" data-category="gateaux">
+                    Gâteaux
+                </button>
+                <button class="category-tab bg-accent-200 text-text-primary px-6 py-3 rounded-full font-montserrat font-medium transition-all hover:bg-accent-300" data-category="snacking">
+                    Snacking
+                </button>
+                <button class="category-tab bg-accent-200 text-text-primary px-6 py-3 rounded-full font-montserrat font-medium transition-all hover:bg-accent-300" data-category="biscuits">
+                    Biscuits & Glaces
+                </button>
+            </div>
+
+            <!-- Products Grid -->
+            <div id="products-grid" class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                <!-- PAINS -->
+<div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="1.30" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1555932450-31a8aec2adf1"
+             alt="Baguette Tradition La Blondinette, dorée et croustillante"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Baguette Tradition "La Blondinette"</h3>
+        <p class="text-text-secondary text-sm">Baguette - Tradition<br>Allergènes : Céréales contenant du gluten<br>1 unité (1 baguette de 250g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">1,30 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Blé français</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="1.40" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1555932450-31a8aec2adf1"
+             alt="Baguette Tradition Graines La Symphonie"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Baguette Tradition Graines "La Symphonie"</h3>
+        <p class="text-text-secondary text-sm">Baguette - La Symphonie<br>Allergènes : Céréales contenant du gluten<br>1 unité (1 baguette de 250g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">1,40 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Graines</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="3.10" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73"
+             alt="Pain Le Drakkar, rustique et généreux"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Le Drakkar</h3>
+        <p class="text-text-secondary text-sm">Le Drakkar<br>Allergènes : Céréales contenant du gluten, Soja<br>1 unité (1 pain de 350g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,10 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pain rustique</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="4.15" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73"
+             alt="Pain à la farine de blé d'épeautre BIO"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Petit Epeautre</h3>
+        <p class="text-text-secondary text-sm">Pain à la farine de blé d'épeautre BIO<br>Allergènes : Céréales contenant du gluten<br>1 unité (1 pain de 400g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,15 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Bio</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="5.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73"
+             alt="Tourte de seigle Auvergnate, pain rustique et savoureux"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Tourte De Seigle Auvergnate</h3>
+        <p class="text-text-secondary text-sm">Tourte de seigle Auvergnate<br>Allergènes : Céréales contenant du gluten<br>450 g (1 pain de 550g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">5,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.9</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Seigle</span>
+        </div>
+    </div>
+</div>
+
+<!-- VIENNOISERIES -->
+<div class="product-card card-elevated group cursor-pointer" data-category="viennoiseries" data-price="3.80" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1677326851843-4c0c8feb35d5"
+             alt="New York Roll Pistache, viennoiserie gourmande"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1710336745947-271b8c02c7c1'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">New York Roll Pistache</h3>
+        <p class="text-text-secondary text-sm">New York Roll Pistache<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,80 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pistache</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="viennoiseries" data-price="2.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1677326851843-4c0c8feb35d5"
+             alt="Chausson aux pommes, viennoiserie classique"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1710336745947-271b8c02c7c1'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Chausson Aux Pommes</h3>
+        <p class="text-text-secondary text-sm">Chausson aux pommes<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pommes</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="viennoiseries" data-price="2.10" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1677326851843-4c0c8feb35d5"
+             alt="Croissant aux amandes, viennoiserie gourmande"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1710336745947-271b8c02c7c1'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Croissant Aux Amandes</h3>
+        <p class="text-text-secondary text-sm">Croissant aux Amandes<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,10 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Amandes</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="viennoiseries" data-price="1.25" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1677326851843-4c0c8feb35d5"
+             alt="Croissant beurre, viennoiserie classique"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1710336745947-271b8c02c7c1'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Croissant Beurre</h3>
+        <p class="text-text-secondary text-sm">Croissant pur beurre<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">1,25 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Beurre AOP</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="viennoiseries" data-price="2.20" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1677326851843-4c0c8feb35d5"
+             alt="Palmier, viennoiserie croustillante"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1710336745947-271b8c02c7c1'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Palmier</h3>
+        <p class="text-text-secondary text-sm">Palmier<br>Allergènes : Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,20 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Feuilleté</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="viennoiseries" data-price="2.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1677326851843-4c0c8feb35d5"
+             alt="Pain aux raisins, viennoiserie sucrée"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1710336745947-271b8c02c7c1'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Pain Aux Raisins</h3>
+        <p class="text-text-secondary text-sm">Pain aux raisins<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Anhydride sulfureux et sulfites<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Raisins</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="viennoiseries" data-price="2.20" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1677326851843-4c0c8feb35d5"
+             alt="Torsade au chocolat, viennoiserie gourmande"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1710336745947-271b8c02c7c1'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Torsade Au Chocolat</h3>
+        <p class="text-text-secondary text-sm">Torsade au chocolat<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,20 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat</span>
+        </div>
+    </div>
+</div>
+
+<!-- PÂTISSERIES -->
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="3.90" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Cheesecake caramel beurre salé, pâtisserie onctueuse"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Cheesecake Caramel Beurre Salé</h3>
+        <p class="text-text-secondary text-sm">Cheesecake caramel beurre salé<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques, Anhydride sulfureux<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,90 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Caramel</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="4.90" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Chou Paris Brest chocolat noix de pécan, pâtisserie gourmande"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Chou Paris Brest Chocolat Noix De Pécan</h3>
+        <p class="text-text-secondary text-sm">Choux gourmand<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,90 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.9</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Noix de pécan</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="2.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Éclair au café, pâtisserie classique"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Éclair Au Café</h3>
+        <p class="text-text-secondary text-sm">Éclair au café<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Café</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="2.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Éclair au chocolat, pâtisserie classique"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Éclair Au Chocolat</h3>
+        <p class="text-text-secondary text-sm">Éclair au chocolat<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="2.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Éclair à la pistache, pâtisserie originale"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Éclair À La Pistache</h3>
+        <p class="text-text-secondary text-sm">Éclair au pistache<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pistache</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="2.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Flan pâtissier, dessert classique"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Flan</h3>
+        <p class="text-text-secondary text-sm">Flan pâtissier<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Vanille</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="4.20" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Fraisier, pâtisserie fruitée"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Fraisier</h3>
+        <p class="text-text-secondary text-sm">Fraisier<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,20 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Fraise</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="4.20" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Macaron framboises, pâtisserie délicate"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Macaron Framboises</h3>
+        <p class="text-text-secondary text-sm">Macaron à la framboises et pistaches<br>Allergènes : Oeufs, Lait, Fruits à coques, Arachides<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,20 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.9</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Framboise</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="2.90" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Mille-Feuille, pâtisserie feuilletée"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Mille-Feuille</h3>
+        <p class="text-text-secondary text-sm">Mille-Feuille<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (2,9 € / l'unité) (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,90 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Feuilleté</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="2.90" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Tarte crumble fruits rouges, pâtisserie fruitée"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Tarte Crumble Fruits Rouges</h3>
+        <p class="text-text-secondary text-sm">Tarte crumble aux fruits rouges<br>Allergènes : Céréales contenant du gluten, Lait<br>1 unité (2,9 € / l'unité) (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,90 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Fruits rouges</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="2.70" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Tarte fine aux pommes, pâtisserie légère"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Tarte Fine Aux Pommes</h3>
+        <p class="text-text-secondary text-sm">Tarte fine aux pommes<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (2,7 € / l'unité) (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,70 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pomme</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="3.90" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Tartelette citron basilic, pâtisserie acidulée"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Tartelette Citron</h3>
+        <p class="text-text-secondary text-sm">Tartelette au citron et au basilic<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Anhydride sulfureux<br>1 unité (3,9 € / l'unité) (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,90 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Citron</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="4.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Tartelette aux fraises, pâtisserie fruitée"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Tartelette Aux Fraises</h3>
+        <p class="text-text-secondary text-sm">Tartelette aux fraises<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques, Arachides<br>1 unité (4 € / l'unité) (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Fraises</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="4.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959"
+             alt="Tartelette sablé chocolat noir fleur de sel aux framboises, pâtisserie gourmande"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Tartelette Sablé Chocolat Noir Fleur De Sel Aux Framboises</h3>
+        <p class="text-text-secondary text-sm">Tartelette Framboises Sablé Chocolat Noir Fleur de Sel<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Arachides<br>1 unité (4 € / l'unité) (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.9</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat noir</span>
+        </div>
+    </div>
+</div>
+
+<!-- GÂTEAUX -->
+<div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="33.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c"
+             alt="Entremet Pomme Granny pour 6 personnes"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1586316159759-e952a76bcd9c?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Entremet "Pomme Granny" (6 pers.)</h3>
+        <p class="text-text-secondary text-sm">Entremet "Pomme Granny"<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques<br>1 unité (Pour 6 personnes)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">33,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pomme</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="44.80" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c"
+             alt="Entremet Pomme Granny pour 8 personnes"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1586316159759-e952a76bcd9c?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Entremet "Pomme Granny" (8 pers.)</h3>
+        <p class="text-text-secondary text-sm">Entremet "Pomme Granny"<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques<br>1 unité (Pour 8 personnes)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">44,80 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.9</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pomme</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="22.40" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c"
+             alt="Entremet Pomme Granny pour 4 personnes"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1586316159759-e952a76bcd9c?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Entremet "Pomme Granny" (4 pers.)</h3>
+        <p class="text-text-secondary text-sm">Entremet "Pomme Granny"<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques<br>1 unité (Pour 4 personnes)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">22,40 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pomme</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="33.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c"
+             alt="Entremet Bavarois pour 6 personnes"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1586316159759-e952a76bcd9c?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Entremet "Bavarois" (6 pers.)</h3>
+        <p class="text-text-secondary text-sm">Entremet "Bavarois"<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques, Arachides<br>1 unité (Pour 6 personnes)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">33,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Bavarois</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="44.80" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c"
+             alt="Entremet Bavarois pour 8 personnes"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1586316159759-e952a76bcd9c?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Entremet "Bavarois" (8 pers.)</h3>
+        <p class="text-text-secondary text-sm">Entremet "Bavarois"<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques, Arachides<br>1 unité (Pour 8 personnes)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">44,80 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.9</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Bavarois</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="22.40" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c"
+             alt="Entremet Le Dôme Des Îles pour 4 personnes"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1586316159759-e952a76bcd9c?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Entremet "Le Dôme Des Îles" (4 pers.)</h3>
+        <p class="text-text-secondary text-sm">Entremet Le dôme des îles<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques, Arachides<br>1 unité (Pour 4 personnes)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">22,40 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Dôme des Îles</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="44.80" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c"
+             alt="Entremet Le Dôme Des Îles pour 8 personnes"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1586316159759-e952a76bcd9c?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Entremet "Le Dôme Des Îles" (8 pers.)</h3>
+        <p class="text-text-secondary text-sm">Entremet Le dôme des îles<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques, Arachides<br>1 unité (Pour 8 personnes)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">44,80 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Dôme des Îles</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="33.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c"
+             alt="Entremet Le Finger pour 6 personnes"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1586316159759-e952a76bcd9c?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Entremet "Le Finger" (6 pers.)</h3>
+        <p class="text-text-secondary text-sm">Entremet "Le Felger"<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques, Arachides<br>1 unité (Pour 6 personnes)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">33,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Finger</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="44.80" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c"
+             alt="Entremet Le Finger pour 8 personnes"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1586316159759-e952a76bcd9c?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Entremet "Le Finger" (8 pers.)</h3>
+        <p class="text-text-secondary text-sm">Entremet "Le Felger"<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques, Arachides<br>1 unité (Pour 8 personnes)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">44,80 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Finger</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="44.80" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c"
+             alt="Entremet Le Royal pour 8 personnes"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1586316159759-e952a76bcd9c?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Entremet "Le Royal" (8 pers.)</h3>
+        <p class="text-text-secondary text-sm">Le royal<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques, Arachides<br>1 unité (Pour 8 personnes)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">44,80 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.9</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Royal</span>
+        </div>
+    </div>
+</div>
+
+<!-- DESSERTS -->
+<div class="product-card card-elevated group cursor-pointer" data-category="desserts" data-price="2.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Fromage blanc nature crème citron"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Fromage Blanc Nature Crème Citron</h3>
+        <p class="text-text-secondary text-sm">Fromage blanc nature<br>Allergènes : Lait<br>1 unité (1 pot de 200g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Citron</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="desserts" data-price="2.70" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Fromage blanc confiture de framboises muesli"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Fromage Blanc Confiture De Framboises Muesli</h3>
+        <p class="text-text-secondary text-sm">Fromage blanc à la confiture de framboises et de muesli<br>Allergènes : Céréales contenant du gluten, Lait<br>1 unité (1 pot de 200g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,70 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Framboise</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="desserts" data-price="2.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Fromage blanc crème de marrons"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Fromage Banc Crème De Marrons</h3>
+        <p class="text-text-secondary text-sm">Fromage blanc à la crème de marrons<br>Allergènes : Lait, Fruits à coques<br>1 unité (1 pot de 200g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Marrons</span>
+        </div>
+    </div>
+</div>
+
+<!-- GLACES -->
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="3.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Pot de glace brownies"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Pot De Glace Brownies</h3>
+        <p class="text-text-secondary text-sm">Vanille Glace aux morceaux de brownies et à la vanille<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques, Arachides<br>1 unité (1 pot de glace de 180g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Brownies</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="3.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Pot de glace caramel beurre salé"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Pot De Glace Caramel Beurre Salé</h3>
+        <p class="text-text-secondary text-sm">Vanille Glace au caramel et à la vanille<br>Allergènes : Lait<br>1 unité (1 pot de glace de 180g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Caramel</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="3.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Pot de glace caramel"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Pot De Glace Caramel</h3>
+        <p class="text-text-secondary text-sm">Sablé chocolat noir - Vanille Glace au caramel, morceaux de sablé chocolat noir à la fleur de sel et à la vanille<br>Allergènes : Lait<br>1 unité (1 pot de glace de 180g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Sablé</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="3.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Pot de glace chocolat"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Pot De Glace Chocolat</h3>
+        <p class="text-text-secondary text-sm">Vanille Glace au chocolat et à la vanille<br>Allergènes : Lait<br>1 unité (1 pot de glace de 180g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="3.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Pot de glace fraise"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Pot De Glace Fraise</h3>
+        <p class="text-text-secondary text-sm">Vanille Glace à la fraise et à la vanille<br>Allergènes : Lait<br>1 unité (1 pot de glace de 180g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Fraise</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="3.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Pot de glace framboise"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Pot De Glace Framboise</h3>
+        <p class="text-text-secondary text-sm">Vanille Glace à la framboise et à la vanille<br>Allergènes : Lait<br>1 unité (1 pot de glace de 180g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Framboise</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="3.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Pot de glace pistache"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Pot De Glace Pistache</h3>
+        <p class="text-text-secondary text-sm">Vanille Glace à la pistache et à la vanille<br>Allergènes : Lait, Fruits à coques<br>1 unité (1 pot de glace de 180g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pistache</span>
+        </div>
+    </div>
+</div>
+
+<!-- BISCUITS -->
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="2.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Brownie chocolat, biscuit moelleux"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Brownie Chocolat</h3>
+        <p class="text-text-secondary text-sm">Brownie chocolat<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="4.80" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Sachet de 8 mini cannelés bordelais"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Sachet De 8 Mini Cannelés Bordelais</h3>
+        <p class="text-text-secondary text-sm">Mini cannelé Bordelais<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Anhydride sulfureux<br>1 unité (1 sachet de 150g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,80 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Cannelés</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="3.70" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Cookie Shot praliné noisette"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Cookie Shot Praliné Noisette</h3>
+        <p class="text-text-secondary text-sm">Cookie Shot chocolat au lait<br>Allergènes : Céréales contenant du gluten, Lait, Fruits à coques<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,70 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Noisette</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="4.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Sachet de 10 mini cookies aux pépites de chocolat au lait"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Sachet De 10 Mini Cookies Au Pépites De Chocolat Au Lait</h3>
+        <p class="text-text-secondary text-sm">Cookie pépites de chocolat au lait<br>Allergènes : Céréales contenant du gluten, Lait<br>1 unité (1 sachet de 190g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pépites</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="2.20" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Cookie pépites de chocolat"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Cookie Pépites De Chocolat Au Lait</h3>
+        <p class="text-text-secondary text-sm">Cookie pépites de chocolat<br>Allergènes : Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,20 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="4.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Sachet de 10 mini chocolat noir"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Sachet De 10 Mini Chocolat Noir</h3>
+        <p class="text-text-secondary text-sm">Cookie Chocolat Noir<br>Allergènes : Céréales contenant du gluten, Lait<br>1 unité (1 sachet de 190g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat noir</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="2.20" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Cookie chocolat noir"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Cookie Chocolat Noir</h3>
+        <p class="text-text-secondary text-sm">Cookie Chocolat Noir<br>Allergènes : Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,20 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat noir</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="5.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Sachet de 10 mini financiers"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Sachet De 10 Mini Financiers</h3>
+        <p class="text-text-secondary text-sm">Mini financiers<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait, Fruits à coques<br>1 unité (1 sachet de 180g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">5,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Financiers</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="1.45" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Sablé breton, biscuit croustillant"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Sablé Breton</h3>
+        <p class="text-text-secondary text-sm">Sablé breton<br>Allergènes : Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">1,45 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Breton</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="2.90" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Financier fruits rouges, biscuit moelleux"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Financier Fruits Rouges</h3>
+        <p class="text-text-secondary text-sm">Financier fruits rouges<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">2,90 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Fruits rouges</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="3.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Sachet de 10 mini madeleines"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Sachet De 10 Mini Madeleines</h3>
+        <p class="text-text-secondary text-sm">Mini madeleines<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 sachet de 70g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Madeleines</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="4.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Sachet de 10 sablé chocolat noir fleur de sel"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Sachet De 10 Sablé Chocolat Noir Fleur De Sel</h3>
+        <p class="text-text-secondary text-sm">Sablé Chocolat Noir Fleur de Sel<br>Allergènes : Céréales contenant du gluten, Lait<br>1 unité (1 sachet)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat noir</span>
+        </div>
+    </div>
+</div>
+
+<!-- SALADES -->
+<div class="product-card card-elevated group cursor-pointer" data-category="snacking" data-price="7.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Salade de saumon crudités"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Salade De Saumon Crudités</h3>
+        <p class="text-text-secondary text-sm">Grande salade de saumon, mangue, mozzarella, crème de tartare et cruidités<br>Allergènes : Poissons, Céréales contenant du gluten, Lait<br>1 unité (1 salade de 450g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">7,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Saumon</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="snacking" data-price="7.00" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Salade poulet crudités"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Salade Poulet Crudités</h3>
+        <p class="text-text-secondary text-sm">Grande salade de viande de poulet, cheddar et cruidités<br>Allergènes : Céréales contenant du gluten, Moutarde<br>1 unité (1 salade de 450g, pour 1 personne)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">7,00 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Poulet</span>
+        </div>
+    </div>
+</div>
+
+<!-- SNACKS -->
+<div class="product-card card-elevated group cursor-pointer" data-category="snacking" data-price="3.95" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Quiche lorraine"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Quiche Lorraine</h3>
+        <p class="text-text-secondary text-sm">Quiche lorraine<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>1 unité (1 pièce de 270g, pour 1 personne)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,95 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Lorraine</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="snacking" data-price="3.95" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Quiche saumon poireaux"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Quiche Saumon Poireaux</h3>
+        <p class="text-text-secondary text-sm">Quiche au saumon et au poireaux<br>Allergènes : Oeufs, Poissons, Céréales contenant du gluten, Lait<br>1 unité (1 pièce de 270g, pour 1 personne)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,95 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Saumon</span>
+        </div>
+    </div>
+</div>
+
+<!-- FORMULES -->
+<div class="product-card card-elevated group cursor-pointer" data-category="snacking" data-price="7.90" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Formule déjeuner quiche"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Formule Déjeuner Quiche</h3>
+        <p class="text-text-secondary text-sm">Formule déjeuner avec quiche<br>Allergènes : Oeufs, Céréales contenant du gluten, Lait<br>(7,9 € / l'unité)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">7,90 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Formule</span>
+        </div>
+    </div>
+</div>
+
+<div class="product-card card-elevated group cursor-pointer" data-category="snacking" data-price="10.70" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf"
+             alt="Formule déjeuner salade crudités"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1673407599243-25adf9492ecf?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Formule Déjeuner Salade Crudités</h3>
+        <p class="text-text-secondary text-sm">Formule déjeuner avec salade<br>Allergènes : Moutarde<br>(10,7 € / l'unité)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">10,70 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Salade</span>
+        </div>
+    </div>
+</div>
+
+                
+                <!-- Baguette Tradition "La Blondinette" -->
+<div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="1.30" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1555932450-31a8aec2adf1"
+             alt="Baguette Tradition La Blondinette, dorée et croustillante"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Baguette Tradition "La Blondinette"</h3>
+        <p class="text-text-secondary text-sm">Baguette - Tradition<br>Allergènes : Céréales contenant du gluten<br>1 unité (1 baguette de 250g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">1,30 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                </svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Blé français</span>
+        </div>
+    </div>
+</div>
+
+<!-- Baguette Tradition Graines "La Symphonie" -->
+<div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="1.40" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1555932450-31a8aec2adf1"
+             alt="Baguette Tradition Graines La Symphonie, dorée et croustillante"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Baguette Tradition Graines "La Symphonie"</h3>
+        <p class="text-text-secondary text-sm">Baguette - La Symphonie<br>Allergènes : Céréales contenant du gluten<br>1 unité (1 baguette de 250g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">1,40 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                </svg>
+                <span class="text-sm text-text-secondary">4.8</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Graines</span>
+        </div>
+    </div>
+</div>
+
+<!-- Le Drakkar -->
+<div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="3.10" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73"
+             alt="Pain Le Drakkar, rustique et généreux"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Le Drakkar</h3>
+        <p class="text-text-secondary text-sm">Le Drakkar<br>Allergènes : Céréales contenant du gluten, Soja<br>1 unité (1 pain de 350g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">3,10 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                </svg>
+                <span class="text-sm text-text-secondary">4.7</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Pain rustique</span>
+        </div>
+    </div>
+</div>
+
+<!-- Petit Epeautre -->
+<div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="4.15" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73"
+             alt="Pain à la farine de blé d'épeautre BIO"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Petit Epeautre</h3>
+        <p class="text-text-secondary text-sm">Pain à la farine de blé d'épeautre BIO<br>Allergènes : Céréales contenant du gluten<br>1 unité (1 pain de 400g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">4,15 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                </svg>
+                <span class="text-sm text-text-secondary">4.6</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Bio</span>
+        </div>
+    </div>
+</div>
+
+<!-- Tourte De Seigle Auvergnate -->
+<div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="5.60" data-availability="available">
+    <div class="relative overflow-hidden rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73"
+             alt="Tourte de seigle Auvergnate, pain rustique et savoureux"
+             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+             onerror="this.src='https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+        <div class="absolute top-3 right-3">
+            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+        </div>
+    </div>
+    <div class="space-y-2">
+        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Tourte De Seigle Auvergnate</h3>
+        <p class="text-text-secondary text-sm">Tourte de seigle Auvergnate<br>Allergènes : Céréales contenant du gluten<br>450 g (1 pain de 550g)</p>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-primary">5,60 €</span>
+            <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                </svg>
+                <span class="text-sm text-text-secondary">4.9</span>
+            </div>
+        </div>
+        <div class="flex items-center text-xs text-text-secondary space-x-2">
+            <span class="bg-accent-200 px-2 py-1 rounded">Seigle</span>
+        </div>
+    </div>
+</div>
+                <!-- Pain Products -->
+                <div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="1.50" data-availability="available">
+                    <div class="relative overflow-hidden rounded-lg mb-4">
+                        <img src="https://images.unsplash.com/photo-1555932450-31a8aec2adf1" 
+                             alt="Baguette tradition dorée et croustillante, pain signature de Maison Laetitier" 
+                             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+                        <div class="absolute top-3 right-3">
+                            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+                        </div>
+                        <button class="absolute top-3 left-3 bg-white/80 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-all">
+                            <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Baguette Tradition</h3>
+                        <p class="text-text-secondary text-sm">Pain traditionnel français, croûte dorée et mie alvéolée</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">1,50 €</span>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <span class="text-sm text-text-secondary">4.8</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-xs text-text-secondary space-x-2">
+                            <span class="bg-accent-200 px-2 py-1 rounded">Blé français</span>
+                            <span class="bg-accent-200 px-2 py-1 rounded">Levain naturel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Viennoiserie Products -->
+                <div class="product-card card-elevated group cursor-pointer" data-category="viennoiseries" data-price="1.80" data-availability="available">
+                    <div class="relative overflow-hidden rounded-lg mb-4">
+                        <img src="https://images.unsplash.com/photo-1677326851843-4c0c8feb35d5" 
+                             alt="Croissants au beurre feuilletés et dorés, viennoiserie emblématique française" 
+                             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://images.unsplash.com/photo-1710336745947-271b8c02c7c1'; this.onerror=null;">
+                        <div class="absolute top-3 right-3">
+                            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+                        </div>
+                        <button class="absolute top-3 left-3 bg-white/80 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-all">
+                            <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Croissant au Beurre</h3>
+                        <p class="text-text-secondary text-sm">Feuilletage parfait au beurre AOP, croustillant et fondant</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">1,80 €</span>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <span class="text-sm text-text-secondary">4.9</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-xs text-text-secondary space-x-2">
+                            <span class="bg-accent-200 px-2 py-1 rounded">Beurre AOP</span>
+                            <span class="bg-accent-200 px-2 py-1 rounded">Fait main</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pâtisserie Products -->
+                <div class="product-card card-elevated group cursor-pointer" data-category="patisseries" data-price="4.50" data-availability="available">
+                    <div class="relative overflow-hidden rounded-lg mb-4">
+                        <img src="https://images.unsplash.com/photo-1712460843445-f2a261a80959" 
+                             alt="Éclair au chocolat élégant avec glaçage brillant et crème pâtissière onctueuse" 
+                             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+                        <div class="absolute top-3 right-3">
+<span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+                        </div>
+                        <button class="absolute top-3 left-3 bg-white/80 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-all">
+                            <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Éclair au Chocolat</h3>
+                        <p class="text-text-secondary text-sm">Pâte à choux garnie de crème pâtissière vanille, glaçage chocolat</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">4,50 €</span>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <span class="text-sm text-text-secondary">4.7</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-xs text-text-secondary space-x-2">
+                            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat Valrhona</span>
+                            <span class="bg-accent-200 px-2 py-1 rounded">Crème fraîche</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gâteau Products -->
+                <div class="product-card card-elevated group cursor-pointer" data-category="gateaux" data-price="28.00" data-availability="pre-order">
+                    <div class="relative overflow-hidden rounded-lg mb-4">
+                        <img src="https://images.unsplash.com/photo-1586316159759-e952a76bcd9c" 
+                             alt="Gâteau aux fruits rouges élégant avec crème chantilly et fruits frais de saison" 
+                             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=800'; this.onerror=null;">
+                        <div class="absolute top-3 right-3">
+<span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+                        </div>
+                        <button class="absolute top-3 left-3 bg-white/80 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-all">
+                            <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Gâteau aux Fruits Rouges</h3>
+                        <p class="text-text-secondary text-sm">Génoise vanille, crème chantilly, fruits rouges de saison (6-8 pers.)</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">28,00 €</span>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <span class="text-sm text-text-secondary">4.8</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-xs text-text-secondary space-x-2">
+                            <span class="bg-accent-200 px-2 py-1 rounded">Fruits de saison</span>
+                            <span class="bg-accent-200 px-2 py-1 rounded">6-8 personnes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Snacking Products -->
+                <div class="product-card card-elevated group cursor-pointer" data-category="snacking" data-price="7.50" data-availability="available">
+                    <div class="relative overflow-hidden rounded-lg mb-4">
+                        <img src="https://images.unsplash.com/photo-1664013894145-04cd9ef454ba" 
+                             alt="Sandwich artisanal au jambon de Bayonne avec salade fraîche et pain de campagne" 
+                             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://images.unsplash.com/photo-1553909489-cd47e0ef937f?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+                        <div class="absolute top-3 right-3">
+                            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+                        </div>
+                        <button class="absolute top-3 left-3 bg-white/80 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-all">
+                            <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Sandwich Jambon de Bayonne</h3>
+                        <p class="text-text-secondary text-sm">Pain de campagne, jambon de Bayonne, salade, tomates, beurre</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">7,50 €</span>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <span class="text-sm text-text-secondary">4.6</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-xs text-text-secondary space-x-2">
+                            <span class="bg-accent-200 px-2 py-1 rounded">Produits locaux</span>
+                            <span class="bg-accent-200 px-2 py-1 rounded">Fait sur place</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biscuits Products -->
+                <div class="product-card card-elevated group cursor-pointer" data-category="biscuits" data-price="3.20" data-availability="available">
+                    <div class="relative overflow-hidden rounded-lg mb-4">
+                        <img src="https://images.unsplash.com/photo-1673407599243-25adf9492ecf" 
+                             alt="Macarons colorés artisanaux aux saveurs variées, spécialité pâtissière française" 
+                             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://images.pexels.com/photos/1070946/pexels-photo-1070946.jpeg?auto=compress&cs=tinysrgb&w=800'; this.onerror=null;">
+                        <div class="absolute top-3 right-3">
+                            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+                        </div>
+                        <button class="absolute top-3 left-3 bg-white/80 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-all">
+                            <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Macarons Assortis</h3>
+                        <p class="text-text-secondary text-sm">Boîte de 6 macarons aux saveurs variées (vanille, chocolat, framboise...)</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">3,20 €</span>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <span class="text-sm text-text-secondary">4.9</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-xs text-text-secondary space-x-2">
+                            <span class="bg-accent-200 px-2 py-1 rounded">Poudre d'amande</span>
+                            <span class="bg-accent-200 px-2 py-1 rounded">6 pièces</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Products -->
+                <div class="product-card card-elevated group cursor-pointer" data-category="pains" data-price="2.80" data-availability="available">
+                    <div class="relative overflow-hidden rounded-lg mb-4">
+                        <img src="https://images.unsplash.com/photo-1710336745947-271b8c02c7c1" 
+                             alt="Pain de campagne rustique aux graines de tournesol et sésame, croûte épaisse" 
+                             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800&auto=format&fit=crop'; this.onerror=null;">
+                        <div class="absolute top-3 right-3">
+                            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+                        </div>
+                        <button class="absolute top-3 left-3 bg-white/80 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-all">
+                            <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Pain de Campagne</h3>
+                        <p class="text-text-secondary text-sm">Pain rustique au levain, graines de tournesol et sésame</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">2,80 €</span>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <span class="text-sm text-text-secondary">4.7</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-xs text-text-secondary space-x-2">
+                            <span class="bg-accent-200 px-2 py-1 rounded">Levain naturel</span>
+                            <span class="bg-accent-200 px-2 py-1 rounded">Graines</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card card-elevated group cursor-pointer" data-category="viennoiseries" data-price="2.20" data-availability="available">
+                    <div class="relative overflow-hidden rounded-lg mb-4">
+                        <img src="https://images.unsplash.com/photo-1597528662465-55ece5734101" 
+                             alt="Pain au chocolat feuilleté avec chocolat noir de qualité, viennoiserie traditionnelle" 
+                             class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                             onerror="this.src='https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=800'; this.onerror=null;">
+                        <div class="absolute top-3 right-3">
+                            <span class="bg-success text-white text-xs px-2 py-1 rounded-full">Disponible</span>
+                        </div>
+                        <button class="absolute top-3 left-3 bg-white/80 backdrop-blur-sm p-2 rounded-full opacity-0 group-hover:opacity-100 transition-all">
+                            <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-playfair font-semibold text-text-primary group-hover:text-primary transition-colors">Pain au Chocolat</h3>
+                        <p class="text-text-secondary text-sm">Pâte feuilletée au beurre, chocolat noir 70% cacao</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-primary">2,20 €</span>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <span class="text-sm text-text-secondary">4.8</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-xs text-text-secondary space-x-2">
+                            <span class="bg-accent-200 px-2 py-1 rounded">Chocolat 70%</span>
+                            <span class="bg-accent-200 px-2 py-1 rounded">Beurre AOP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="text-center mt-12">
+                <button id="load-more" class="btn-secondary px-8 py-4 text-lg">
+                    Voir plus de produits
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Detail Modal -->
+    <div id="product-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 hidden">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-background rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+                <div class="relative">
+                    <button id="close-modal" class="absolute top-4 right-4 bg-white/80 backdrop-blur-sm p-2 rounded-full z-10">
+                        <svg class="w-6 h-6 text-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                    
+                    <div class="grid md:grid-cols-2 gap-8 p-8">
+                        <div class="space-y-4">
+                            <div class="relative overflow-hidden rounded-lg">
+                                <img id="modal-image" src="" alt="" class="w-full h-80 object-cover">
+                            </div>
+                            </div>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <h2 id="modal-title" class="text-3xl font-playfair font-bold text-text-primary mb-2"></h2>
+                                <p id="modal-description" class="text-text-secondary"></p>
+                            </div>
+                            
+                            <div class="flex items-center justify-between">
+                                <span id="modal-price" class="text-4xl font-bold text-primary"></span>
+                                <div class="flex items-center space-x-1">
+                                    <svg class="w-5 h-5 text-warning-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <span class="text-text-secondary">4.8 (127 avis)</span>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h3 class="font-semibold text-text-primary mb-3">Ingrédients</h3>
+                                <p class="text-text-secondary text-sm">Farine de blé français, eau, levain naturel, sel de Guérande, beurre AOP Charentes-Poitou</p>
+                            </div>
+                            
+                            <div>
+                                <h3 class="font-semibold text-text-primary mb-3">Informations allergènes</h3>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-error-100 text-error-700 px-3 py-1 rounded-full text-sm">Gluten</span>
+                                    <span class="bg-error-100 text-error-700 px-3 py-1 rounded-full text-sm">Lait</span>
+                                    <span class="bg-success-100 text-success-700 px-3 py-1 rounded-full text-sm">Sans œufs</span>
+                                    <span class="bg-success-100 text-success-700 px-3 py-1 rounded-full text-sm">Sans fruits à coque</span>
+                                </div>
+                            </div>
+                            
+                           <div class="flex space-x-4">
+    <button class="btn-primary flex-1">Voir en magasin</button>
+</div>
+
+                            
+                            <div class="border-t border-accent-200 pt-6">
+                                <h3 class="font-semibold text-text-primary mb-3">Produits similaires</h3>
+                                <div class="grid grid-cols-3 gap-3">
+                                    <div class="text-center">
+                                        <img src="https://images.unsplash.com/photo-1612201035840-7498d0d34973" 
+                                             alt="Pain complet aux graines, alternative similaire recommandée" 
+                                             class="w-full h-16 object-cover rounded mb-2">
+                                        <p class="text-xs text-text-secondary">Pain Complet</p>
+                                        <p class="text-sm font-semibold text-primary">2,40 €</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="https://images.unsplash.com/photo-1580117971771-ddbbfccffb91" 
+                                             alt="Pain aux céréales, suggestion d'accompagnement" 
+                                             class="w-full h-16 object-cover rounded mb-2">
+                                        <p class="text-xs text-text-secondary">Pain Céréales</p>
+                                        <p class="text-sm font-semibold text-primary">2,60 €</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="https://images.unsplash.com/photo-1668887464682-f31d5f1b92e0" 
+                                             alt="Pain de seigle artisanal, produit complémentaire" 
+                                             class="w-full h-16 object-cover rounded mb-2">
+                                        <p class="text-xs text-text-secondary">Pain de Seigle</p>
+                                        <p class="text-sm font-semibold text-primary">2,90 €</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <svg class="w-8 h-8 text-primary" viewBox="0 0 40 40" fill="currentColor">
+                            <path d="M20 2C15.5 2 12 5.5 12 10c0 2.5 1 4.8 2.6 6.5L20 38l5.4-21.5C27 14.8 28 12.5 28 10c0-4.5-3.5-8-8-8zm0 11c-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3-1.3 3-3 3z"/>
+                            <circle cx="20" cy="10" r="2" fill="white"/>
+                        </svg>
+                        <div>
+                            <h3 class="text-xl font-dancing text-primary font-bold">Maison Laetitier</h3>
+                            <p class="text-sm text-gray-300">Boulangerie Artisanale</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 text-sm">
+                        Votre boulangerie de quartier depuis toujours, au service de la tradition française.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Navigation</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="page dacceuil.html" class="text-gray-300 hover:text-primary transition-colors">Accueil</a></li>
+                        <li><a href="products.html" class="text-gray-300 hover:text-primary transition-colors">Nos Produits</a></li>
+
+                    </ul>
+                </div>
+
+               
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <div class="space-y-2 text-sm text-gray-300">
+                        <p>59 Rue de Charenton</p>
+                        <p>75011 Paris, France</p>
+                        <p>01 43 45 03 91</p>
+                        <p>contact@maisonlaetitier.fr</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-300">
+                <p>&copy; 2025 Maison Laetitier. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Filter Panel Toggle
+        const filterBtn = document.getElementById('filter-btn');
+        const filterPanel = document.getElementById('filter-panel');
+
+        filterBtn.addEventListener('click', () => {
+            filterPanel.classList.toggle('hidden');
+        });
+
+        // Category Tabs
+        const categoryTabs = document.querySelectorAll('.category-tab');
+        const productCards = document.querySelectorAll('.product-card');
+
+        categoryTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Update active tab
+                categoryTabs.forEach(t => {
+                    t.classList.remove('active', 'bg-primary', 'text-white');
+                    t.classList.add('bg-accent-200', 'text-text-primary');
+                });
+                tab.classList.add('active', 'bg-primary', 'text-white');
+                tab.classList.remove('bg-accent-200', 'text-text-primary');
+
+                // Filter products
+                const category = tab.dataset.category;
+                filterProducts(category);
+            });
+        });
+
+        function filterProducts(category) {
+            productCards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'block';
+                    card.classList.add('animate-fade-in');
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            updateResultsCount();
+        }
+
+        // Advanced Filters
+        const categoryFilter = document.getElementById('category-filter');
+        const priceFilter = document.getElementById('price-filter');
+        const dietaryFilter = document.getElementById('dietary-filter');
+        const availabilityFilter = document.getElementById('availability-filter');
+        const resetFilters = document.getElementById('reset-filters');
+
+        function applyFilters() {
+            const categoryValue = categoryFilter.value;
+            const priceValue = priceFilter.value;
+            const dietaryValue = dietaryFilter.value;
+            const availabilityValue = availabilityFilter.value;
+
+            productCards.forEach(card => {
+                let show = true;
+
+                // Category filter
+                if (categoryValue && card.dataset.category !== categoryValue) {
+                    show = false;
+                }
+
+                // Price filter
+                if (priceValue && show) {
+                    const price = parseFloat(card.dataset.price);
+                    const [min, max] = priceValue.includes('-') ? 
+                        priceValue.split('-').map(p => parseFloat(p)) : 
+                        [parseFloat(priceValue.replace('+', '')), Infinity];
+                    
+                    if (price < min || price > max) {
+                        show = false;
+                    }
+                }
+
+                // Availability filter
+                if (availabilityValue && show) {
+                    if (card.dataset.availability !== availabilityValue) {
+                        show = false;
+                    }
+                }
+
+                card.style.display = show ? 'block' : 'none';
+            });
+            updateResultsCount();
+        }
+
+        [categoryFilter, priceFilter, dietaryFilter, availabilityFilter].forEach(filter => {
+            filter.addEventListener('change', applyFilters);
+        });
+
+        resetFilters.addEventListener('click', () => {
+            [categoryFilter, priceFilter, dietaryFilter, availabilityFilter].forEach(filter => {
+                filter.value = '';
+            });
+            productCards.forEach(card => {
+                card.style.display = 'block';
+            });
+            updateResultsCount();
+        });
+
+        function updateResultsCount() {
+            const visibleCards = Array.from(productCards).filter(card => card.style.display !== 'none');
+            const count = visibleCards.length;
+            document.getElementById('results-count').innerHTML = 
+                `<span class="font-semibold text-primary">${count}</span> produits trouvés`;
+        }
+
+        // Product Modal
+        const productModal = document.getElementById('product-modal');
+        const closeModal = document.getElementById('close-modal');
+        const modalImage = document.getElementById('modal-image');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const modalPrice = document.getElementById('modal-price');
+
+        productCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const img = card.querySelector('img');
+                const title = card.querySelector('h3').textContent;
+                const description = card.querySelector('p').textContent;
+                const price = card.querySelector('.text-2xl').textContent;
+
+                modalImage.src = img.src;
+                modalImage.alt = img.alt;
+                modalTitle.textContent = title;
+                modalDescription.textContent = description;
+                modalPrice.textContent = price;
+
+                productModal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            productModal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        });
+
+        productModal.addEventListener('click', (e) => {
+            if (e.target === productModal) {
+                productModal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Load More Functionality
+        const loadMoreBtn = document.getElementById('load-more');
+        let currentlyVisible = 8;
+
+        loadMoreBtn.addEventListener('click', () => {
+            const hiddenCards = Array.from(productCards).slice(currentlyVisible, currentlyVisible + 4);
+            hiddenCards.forEach(card => {
+                card.style.display = 'block';
+                card.classList.add('animate-fade-in');
+            });
+            currentlyVisible += 4;
+
+            if (currentlyVisible >= productCards.length) {
+                loadMoreBtn.style.display = 'none';
+            }
+        });
+
+        // Initialize
+        updateResultsCount();
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add loading animation
+        window.addEventListener('load', () => {
+            document.body.classList.add('animate-fade-in');
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
